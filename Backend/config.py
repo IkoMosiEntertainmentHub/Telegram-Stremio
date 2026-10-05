@@ -15,8 +15,8 @@ def _int_env(key: str, default: int = 0) -> int:
 #----- Environment-backed configuration
 class Telegram:
     #----- Required: Telegram clients
-    API_ID              = _int_env("API_ID")
-    API_HASH            = getenv("API_HASH", "")
+    API_ID              = _int_env("38168116")
+    API_HASH            = getenv("f93b2e8fe76b968c91b247a21079c945", "")
     BOT_TOKEN           = getenv("BOT_TOKEN", "")
 
     #----- Required: Database URIs
